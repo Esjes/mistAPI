@@ -14,5 +14,6 @@ echo '<h1>' . $weatherObject -> liveweer[0] -> temp . '</h1>';
 
 echo '<p>' . $weatherObject -> liveweer[0] -> sup . '</p>';
 echo '<p>' . $weatherObject -> liveweer[0] -> sunder . '</p>';
+echo '<p>' . $weatherObject -> liveweer[0] -> plaats . '</p>';
 ?>
 
