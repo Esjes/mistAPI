@@ -15,7 +15,7 @@
 
     <title>Photgraphers essential weather app</title>
 </head>
-<body>
+<body class="body-bg">
 
     <?php include 'getData.php'; ?>
 

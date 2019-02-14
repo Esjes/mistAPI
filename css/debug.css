@@ -1,8 +1,8 @@
-/* .debug {
+  /*.debug {
     border: solid 0.5px black;
 } */
 
-  body {
+ /* body {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
@@ -11,6 +11,18 @@
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+} */
+
+.bg {
+	color: white;
+	border: solid 1px white;
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px rgba(54, 54, 54, 0.479);
+	background: linear-gradient(-45deg, rgba(238, 118, 82, 0.8), rgba(231, 60, 126, 0.8), rgba(6, 29, 37, 0.8), rgba(35, 213, 171, 0.8));
+background-size: 400% 400%;
+-webkit-animation: Gradient 15s ease infinite;
+-moz-animation: Gradient 15s ease infinite;
+animation: Gradient 15s ease infinite;	
 }
 
 @-webkit-keyframes Gradient {
@@ -49,7 +61,15 @@
 	}
 } 
 
-  .screen {
+.body-bg{
+	background: url(../img/casino.jpg);
+	width: 100wh;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ /* .screen {
     top: 0;
     right: 0;
     bottom: 0;
@@ -62,7 +82,7 @@
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: column;
-    /* works with row or column */
+    
     
     flex-direction: column;
     -webkit-align-items: center;
@@ -70,13 +90,45 @@
     -webkit-justify-content: center;
     justify-content: center;
     text-align: center;
+	} 
+*/
+	.space{
+		padding: 15px;
 	}
-	
 	.wrapper {
-		max-width: 992px;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		max-width: 576px;
 	}
 
-.bg {
-    color: white;
-    background-color: rgba(6, 6, 49, 0.623);
+
+
+.iconsizeA{
+	font-size: 25px;
+	color: rgb(247, 245, 134);
+}
+.iconsizeB{
+	font-size: 45px;
+}
+.iconsizeC{
+	font-size: 65px;
+}
+
+.grey {
+	color: rgb(190, 190, 190);
+}
+
+.blue {
+	color: rgb(79, 245, 245);
+}
+
+.yellow {
+	color: rgb(255, 202, 29);
+}
+
+.kanssize{
+	font-size: 35px;
 }
