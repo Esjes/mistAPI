@@ -1,12 +1,12 @@
-.debug {
+/* .debug {
     border: solid 0.5px black;
-}
+} */
 
-body {
+  body {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
-    background: linear-gradient(253deg, #0cc898, #1797d2, #864fe1);
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -47,14 +47,14 @@ body {
 	100% {
 		background-position: 0% 50%
 	}
-}
+} 
 
   .screen {
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: url(https://i.imgur.com/wCG2csZ.png);
+    background: url(../img/casino.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -70,9 +70,13 @@ body {
     -webkit-justify-content: center;
     justify-content: center;
     text-align: center;
-  }
+	}
+	
+	.wrapper {
+		max-width: 992px;
+	}
 
 .bg {
     color: white;
-    background-color: rgba(1, 1, 8, 0.623);
+    background-color: rgba(6, 6, 49, 0.623);
 }

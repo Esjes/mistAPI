@@ -14,17 +14,18 @@ $weatherObject = json_decode($json);
 
 echo 
 '<div class="screen">' .
+'<div class="wrapper">' .
 '<div class="container  bg">' .
     '<div class="row debug">' .
-        '<div class="col debug"><p class="text-left">zonsop<br>' . $weatherObject -> liveweer[0] -> sup . '</p></div>' .
+        '<div class="col debug"><p class="text-left"><i class="wi wi-sunrise"><br>' . $weatherObject -> liveweer[0] -> sup . '</i></div>' .
         '<div class="col debug">' .
-            '<div class="row"><div class="col debug"><p class="text-center">tijd</p></div></div>' .
+            '<div class="row"><div class="col debug" id="klokbalk"><p class="text-center"></p></div></div>' .
             '<div class="row"><div class="col debug"><p class="text-center">' . $weatherObject -> liveweer[0] -> plaats . '</p></div></div>' .     
         '</div>' .
-        '<div class="col debug"><p class="text-right">zonsonder<br>' . $weatherObject -> liveweer[0] -> sunder . '</p></div>' .
+        '<div class="col debug"><p class="text-right"><i class="wi wi-sunset"><br>' . $weatherObject -> liveweer[0] -> sunder . '</i></div>' .
     '</div>' .
     '<div class="row debug">' .
-        '<div class="col debug"><p class="text-center">' . $weatherObject -> liveweer[0] -> d0weer . '</p></div>' .
+        '<div class="col debug"><i class="wi wi-' . $weatherObject -> liveweer[0] -> d0weer . '"></i></div>' .
     '</div>' .
     '<div class="row debug">' .
         '<div class="col debug"><p class="text-center">' . $weatherObject -> liveweer[0] -> temp . '</p></div>' .
@@ -62,8 +63,9 @@ echo
         '<div class="col debug"><p class="text-left">' . $weatherObject -> liveweer[0] -> alarm . '</p></div>' .
     '</div>' .
     '<div class="row debug">' .
-        '<div class="col debug"><p class="text-left"></p></div>' .
+        '<div class="col debug"><p class="text-left"><small>KNMI Weergegevens via <a href="https://www.Weerlive.nl">Weerlive.nl</a></p></small></div>' .
     '</div>' .
+'</div>'  .
 '</div>'  .
 '</div>';
 ?>
