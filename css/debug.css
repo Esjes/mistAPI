@@ -1,4 +1,4 @@
-  /*.debug {
+/* .debug {
     border: solid 0.5px black;
 } */
 
@@ -14,15 +14,20 @@
 } */
 
 .bg {
-	color: white;
-	border: solid 1px white;
+	border: none;
 	border-radius: 25px;
-	box-shadow: 10px 10px 5px rgba(54, 54, 54, 0.479);
-	background: linear-gradient(-45deg, rgba(238, 118, 82, 0.8), rgba(231, 60, 126, 0.8), rgba(6, 29, 37, 0.8), rgba(35, 213, 171, 0.8));
+	color: #c3c4c5;
+	box-shadow: 10px 10px 5px #3636367a;
+	background: linear-gradient(-45deg, rgba(30, 29, 27, 0.9), rgba(78, 85, 69, 0.9), rgba(30, 29, 27, 0.9), rgba(169, 150, 134, 0.9));
 background-size: 400% 400%;
 -webkit-animation: Gradient 15s ease infinite;
 -moz-animation: Gradient 15s ease infinite;
 animation: Gradient 15s ease infinite;	
+}
+
+.bg-border {
+	border-radius: 25px;
+	border: solid 1px #b7c2c5;
 }
 
 @-webkit-keyframes Gradient {
@@ -108,7 +113,6 @@ animation: Gradient 15s ease infinite;
 
 .iconsizeA{
 	font-size: 25px;
-	color: rgb(247, 245, 134);
 }
 .iconsizeB{
 	font-size: 45px;
@@ -118,17 +122,35 @@ animation: Gradient 15s ease infinite;
 }
 
 .grey {
-	color: rgb(190, 190, 190);
+	color: #bebebe;
 }
 
 .blue {
-	color: rgb(79, 245, 245);
+	color: #718aa0;
 }
 
-.yellow {
-	color: rgb(255, 202, 29);
+.lgreen {
+	color: #b7c2c5;
+}
+
+.l-yellow {
+	color: #d1b184;
 }
 
 .kanssize{
 	font-size: 35px;
+}
+
+.go {
+	border: none;
+}
+
+a:link {
+	color: #c3c4c5;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c3c4c5;
+	text-decoration: none;
 }
