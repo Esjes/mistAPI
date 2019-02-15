@@ -43,15 +43,15 @@ echo
     '<div class="row debug">' .
         '<div class="col debug">' .
             '<div class="row debug"><div class="col debug"><p class="text-center"><small>Dauwpunt</small></p></div></div>' .
-            '<div class="row debug>"><div class="col debug"><p class="text-center blue">' . $weatherObject -> liveweer[0] -> dauwp . '</p></div></div>' .
+            '<div class="row debug>"><div class="col debug"><p class="text-center blue iconsizeA">' . $weatherObject -> liveweer[0] -> dauwp . '</p></div></div>' .
         '</div>' .
         '<div class="col debug">' .
                 '<div class="row debug"><div class="col debug"><p class="text-center"><small>Luchtvochtigheid</small></p></div></div>' .
-                '<div class="row debug>"><div class="col debug"><p class="text-center blue">' . $weatherObject -> liveweer[0] -> lv . '</p></div></div>' .
+                '<div class="row debug>"><div class="col debug"><p class="text-center blue iconsizeA">' . $weatherObject -> liveweer[0] -> lv . '</p></div></div>' .
         '</div>' .
         '<div class="col debug">' .
                 '<div class="row debug"><div class="col debug"><p class="text-center"><small>Windsnelheid</small></p></div></div>' .
-                '<div class="row debug>"><div class="col debug"><p class="text-center blue">' . $weatherObject -> liveweer[0] -> winds . '</p></div></div>' .
+                '<div class="row debug>"><div class="col debug"><p class="text-center blue iconsizeA">' . $weatherObject -> liveweer[0] -> winds . '</p></div></div>' .
         '</div>' .
     '</div>' .
     '<div class="row bg debug">' .
